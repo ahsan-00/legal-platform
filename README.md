@@ -45,19 +45,19 @@ git clone https://github.com/AcmeAI-Git/SQA-assignment.git
 cd backend
 ```
 
-2. Build Docker Image
+### 2. Build Docker Image
 
 ```bash
 docker build -t fastapi-app .
 ```
 
-3. Run the Container
+### 3. Run the Container
 
 ```bash
 docker run -p 8000:8000 fastapi-app
 ```
 
-4. Test the API
+### 4. Test the API
    Run this sample request using curl or any API client like Postman:
 
 ```bash
@@ -88,27 +88,27 @@ Example Response
 }
 ```
 
-Frontend Setup (React / Next.js)
+## Frontend Setup (React / Next.js)
 
-1. Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/AcmeAI-Git/SQA-assignment.git
 cd frontend
 ```
 
-2. Build Docker Image
+### 2. Build Docker Image
 
 ```bash
 docker build -t react-frontend .
 ```
 
-3. Run the Container
+### 3. Run the Container
 
 ```bash
 docker run -p 3001:3001 react-frontend
 ```
 
-4. Access the Application
+### 4. Access the Application
    Open your browser and navigate to:
    http://localhost:3001
