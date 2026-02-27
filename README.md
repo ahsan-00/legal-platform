@@ -193,8 +193,7 @@ python -m pytest tests/ -v --html=reports/test_report.html --self-contained-html
 
 ## About
 
-**Candidate:** Md. Ahsan Habib  
-**Assessment:** QA Engineer — Acme AI Ltd.  
-**Date:** February 2026  
+**Md. Ahsan Habib**
+**QA Engineer**  
 
 > AI assistance (Claude, Anthropic) was used during this assessment and is fully disclosed per the assignment policy. All tests were written, run, and verified by the candidate against the live application.
